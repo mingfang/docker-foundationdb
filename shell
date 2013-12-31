@@ -1,0 +1,1 @@
+docker run -rm=true -v /tmp:/var/lib/foundationdb -v `pwd`/etc:/etc/foundationdb -v `pwd`/ipython:/ipython -p 49888:8888 -i -t foundationdb /bin/bash
